@@ -23,6 +23,9 @@ connectDB();
  
 app.use('/',storeRoute)
 
+app.all('*',(req,res) => {
+    res.send('<h1>Opps! This route does not exist.</h1><a href="index.html">Back to home</a>')
+})
 
 
 
