@@ -16,7 +16,7 @@
     "dev":"nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "codetobuild",
   "license": "ISC",
-  "description": ""
+  "description": "store locator"
 }
